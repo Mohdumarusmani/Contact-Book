@@ -1,0 +1,1 @@
+export {createContact,getContacts,getContact,getContactByID,updateContact,deleteContact} from './_contact.controller';

@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "module": "commonjs",
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "target": "es6",
+      "emitDecoratorMetadata": true,
+      "allowSyntheticDefaultImports": true,
+      "noImplicitAny": true,
+      "moduleResolution": "node",
+      "sourceMap": false,
+      "outDir": "dist",
+      "baseUrl": ".",
+      "paths": {
+        "*": ["node_modules/*", "src/@types/*"],
+        "app/*": ["src/*"],
+        "config/*": ["src/config/*"],
+        "middlewares/*": ["src/middlewares/*"],
+        "routes/*": ["src/routes/*"],
+        "tests/*": ["src/tests/*"],
+        "utils/*": ["src/utils/*"],
+        "types/*":["src/@types/*"],
+        "database/*":["src/database/*"],
+        "models/*": ["src/models/*"],
+        "controllers/*": ["src/controllers/*"]
+      }
+    },
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  

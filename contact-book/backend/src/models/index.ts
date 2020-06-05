@@ -1,0 +1,1 @@
+export {ContactModel,DContact} from './_contact.model'
